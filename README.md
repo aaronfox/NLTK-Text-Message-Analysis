@@ -8,7 +8,7 @@ A foray into Natural Language Processing using the Natural Language Toolkit to a
     ```
     SELECT message.text, message.date, handle.id
     FROM message, handle
-    WHERE message.handle_id = handle.ROWID AND handle.id="+11235554678"
+    WHERE message.handle_id = handle.ROWID AND handle.id="+11235554678" --Let +11235554678 be the desire phone number of someone to analyze messages if desired. Else, remove everything after handle.ROWID
     ```
  4. Use NLTK to analyze the data
  
