@@ -11,3 +11,9 @@ A foray into Natural Language Processing using the Natural Language Toolkit to a
     WHERE message.handle_id = handle.ROWID AND handle.id="+11235554678"
     ```
  4. Use NLTK to analyze the data
+ 
+ ## TODO:
+  - Plot my varying vocabulary over time using my lexical diversity score and the date timestamp of all my outgoing messages
+  - See how many messages I've ever sent versus ever received
+  - See how many messages I've sent to and received from one particular person
+  - See who says the most words or phrases (e.g. "love" or "I love")
